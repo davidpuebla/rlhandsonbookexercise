@@ -17,6 +17,7 @@ EpisodeStep = collections.namedtuple('EpisodeStep', field_names=['observation', 
 class Net(nn.Module):
     def __init__(self, obs_size, hidden_size, n_actions):
         super(Net, self).__init__()
+        print("Network with %d obs_size, %d hidden_size, %d n_actions"% (obs_size, hidden_size, n_actions))
         self.net = nn.Sequential(
             nn.Linear(obs_size, hidden_size),
             nn.ReLU(),
