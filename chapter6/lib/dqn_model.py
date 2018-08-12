@@ -18,9 +18,9 @@ class DQN(nn.Module):
 
         conv_out_size = self._get_conv_out(input_shape)
         self.fc = nn.Sequential(
-            nn.Linear(conv_out_size, 512),
+            nn.Linear(conv_out_size, 2048),
             nn.ReLU(),
-            nn.Linear(512, n_actions)
+            nn.Linear(2048, n_actions)
         )
 
     def _get_conv_out(self, shape):

@@ -7,7 +7,8 @@ from lib import wrappers
 from lib import dqn_model
 
 #DEFAULT_ENV_NAME = "PongNoFrameskip-v4"
-DEFAULT_ENV_NAME = "Riverraid-v0"
+# DEFAULT_ENV_NAME = "Riverraid-v0"
+DEFAULT_ENV_NAME = "SpaceInvaders-v0"
 FPS = 25
 
 if __name__ == "__main__":
