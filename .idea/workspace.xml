@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="31382792-1585-407a-9a6b-a1cfad07d03b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter7/01_dqn_basic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7/lib/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7/lib/common.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7/lib/dqn_model.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter7/panlibrary.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/02_dqn_pong.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/02_dqn_pong.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/03_dqn_play.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/03_dqn_play.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/lib/dqn_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/lib/dqn_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/lib/wrappers.py" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/lib/wrappers.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chapter6/runs/Aug07_21-00-55_uber-Riverraid-v0/events.out.tfevents.1533690055.uber" beforeDir="false" afterPath="$PROJECT_DIR$/chapter6/runs/Aug07_21-00-55_uber-Riverraid-v0/events.out.tfevents.1533690055.uber" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,32 +22,32 @@
           <entry key="project.closed" value="5" />
           <entry key="project.open.time.0" value="2" />
           <entry key="project.open.time.2" value="4" />
-          <entry key="project.open.time.3" value="4" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.open.time.3" value="5" />
+          <entry key="project.opened" value="11" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="03_atari_gan" value="1" />
           <entry key="json" value="2" />
-          <entry key="py" value="17" />
+          <entry key="py" value="40" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="2" />
-          <entry key="Python" value="18" />
+          <entry key="Python" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="03_atari_gan" value="416" />
-          <entry key="py" value="10250" />
+          <entry key="py" value="14527" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="10666" />
+          <entry key="Python" value="14943" />
         </counts>
       </usages-collector>
     </session>
@@ -87,116 +87,44 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="600">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter5/03_frozenlake_q_learning_dpg.py">
+        <entry file="file://$PROJECT_DIR$/chapter7/01_dqn_basic.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1508">
-              <caret line="54" column="31" selection-start-line="54" selection-start-column="31" selection-end-line="54" selection-end-column="31" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter6/01_frozenlake_q_learning.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1972">
-              <caret line="70" selection-start-line="70" selection-end-line="70" />
+            <state relative-caret-position="654">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/torch/nn/modules/module.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="14790">
-              <caret line="517" selection-start-line="517" selection-end-line="517" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter6/lib/dqn_model.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="580">
-              <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-                <marker date="1533728391389" expanded="true" signature="77:82" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/chapter6/02_dqn_pong.py">
+        <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/ptan/agent.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="667">
-              <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+            <state relative-caret-position="701">
+              <caret line="74" column="38" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/ptan/actions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="523">
+              <caret line="25" column="16" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/chapter7/lib/common.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="711">
+              <caret line="58" column="46" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="46" />
               <folding>
-                <element signature="e#0#24#0" expanded="true" />
-                <marker date="1533900418957" expanded="true" signature="738:743" ph="..." />
-                <marker date="1533900418957" expanded="true" signature="1332:1337" ph="..." />
-                <marker date="1533900418957" expanded="true" signature="2412:2417" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter6/lib/wrappers.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3973">
-              <caret line="141" column="5" selection-start-line="141" selection-start-column="5" selection-end-line="141" selection-end-column="5" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-                <marker date="1533855050356" expanded="true" signature="112:117" ph="..." />
-                <marker date="1533855050356" expanded="true" signature="665:670" ph="..." />
-                <marker date="1533855050356" expanded="true" signature="1473:1478" ph="..." />
-                <marker date="1533855050356" expanded="true" signature="3356:3357" ph="..." />
-                <marker date="1533855050356" expanded="true" signature="3404:3409" ph="..." />
-                <marker date="1533855050356" expanded="true" signature="3805:3810" ph="..." />
-                <marker date="1533855050356" expanded="true" signature="4631:4636" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/numpy/core/fromnumeric.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="7105">
-              <caret line="256" selection-start-line="256" selection-end-line="256" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/codecs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9251">
-              <caret line="319" selection-start-line="319" selection-end-line="319" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/gym/core.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9019">
-              <caret line="316" selection-start-line="316" selection-end-line="316" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/chapter6/03_dqn_play.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
+                <element signature="e#0#18#0" expanded="true" />
+                <marker date="1534046853579" expanded="true" signature="571:576" ph="..." />
+                <marker date="1534046853579" expanded="true" signature="2418:2725" ph="..." />
               </folding>
             </state>
           </provider>
@@ -232,21 +160,24 @@
         <option value="$PROJECT_DIR$/chapter6/03_dqn_play.py" />
         <option value="$PROJECT_DIR$/chapter6/lib/wrappers.py" />
         <option value="$PROJECT_DIR$/chapter6/02_dqn_pong.py" />
+        <option value="$PROJECT_DIR$/chapter7/panlibrary.py" />
+        <option value="$PROJECT_DIR$/chapter7/01_dqn_basic.py" />
+        <option value="$PROJECT_DIR$/chapter7/lib/dqn_model.py" />
+        <option value="$PROJECT_DIR$/chapter7/lib/common.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="130" />
-    <option name="y" value="48" />
+    <option name="y" value="-8" />
     <option name="width" value="3710" />
-    <option name="height" value="2112" />
+    <option name="height" value="2168" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -265,10 +196,28 @@
               <item name="chapter6" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="rlhandsonbookexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rlhandsonbookexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rlhandsonbookexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rlhandsonbookexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="rlhandsonbookexercise" type="b2602c69:ProjectViewProjectNode" />
+              <item name="rlhandsonbookexercise" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter7" type="462c0819:PsiDirectoryNode" />
+              <item name="runs" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -285,13 +234,14 @@
     </option>
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/chapter4" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter7/lib" />
       <recent name="$PROJECT_DIR$/chapter5" />
       <recent name="$PROJECT_DIR$/chapter4" />
       <recent name="$PROJECT_DIR$/chapter4/runs" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/chapter4" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -306,8 +256,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.02_dqn_pong">
-    <configuration name="01_cartpole" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.01_dqn_basic">
+    <configuration name="01_dqn_basic" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="rlhandsonbookexercise" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -315,12 +265,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter4" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/chapter7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter4/01_cartpole.py" />
-      <option name="PARAMETERS" value="" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/chapter7/01_dqn_basic.py" />
+      <option name="PARAMETERS" value="--cuda" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
@@ -448,19 +398,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.01_cartpole" />
       <item itemvalue="Python.03_frozenlake_q_learning_dpg" />
       <item itemvalue="Python.01_frozenlake_q_learning" />
       <item itemvalue="Python.02_dqn_pong" />
       <item itemvalue="Python.03_dqn_play" />
+      <item itemvalue="Python.01_dqn_basic" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.01_dqn_basic" />
         <item itemvalue="Python.02_dqn_pong" />
         <item itemvalue="Python.03_dqn_play" />
         <item itemvalue="Python.01_frozenlake_q_learning" />
         <item itemvalue="Python.03_frozenlake_q_learning_dpg" />
-        <item itemvalue="Python.01_cartpole" />
       </list>
     </recent_temporary>
   </component>
@@ -487,7 +437,8 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="129" y="13" width="3712" height="2148" extended-state="6" />
+    <frame x="130" y="-8" width="3710" height="2168" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17512275" />
       <window_info id="Structure" order="1" weight="0.25" />
@@ -519,6 +470,26 @@
           <url>file://$PROJECT_DIR$/chapter6/03_dqn_play.py</url>
           <line>14</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter7/01_dqn_basic.py</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter7/lib/dqn_model.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/ptan/agent.py</url>
+          <line>72</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/chapter7/lib/common.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="8" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -621,24 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/torch/nn/modules/module.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="14790">
-          <caret line="517" selection-start-line="517" selection-end-line="517" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chapter6/lib/dqn_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="580">
-          <caret line="22" column="26" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-            <marker date="1533728391389" expanded="true" signature="77:82" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/chapter6/lib/wrappers.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3973">
@@ -663,13 +616,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/codecs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="9251">
-          <caret line="319" selection-start-line="319" selection-end-line="319" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/gym/core.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="9019">
@@ -689,8 +635,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chapter6/02_dqn_pong.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="667">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="21" selection-end-line="23" selection-end-column="21" />
+        <state relative-caret-position="-1331">
+          <caret line="20" selection-start-line="20" selection-end-line="20" />
           <folding>
             <element signature="e#0#24#0" expanded="true" />
             <marker date="1533900418957" expanded="true" signature="738:743" ph="..." />
@@ -700,5 +646,129 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/lib/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/panlibrary.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="145">
+          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter6/lib/dqn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="580">
+          <caret line="20" column="41" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#12#0" expanded="true" />
+            <marker date="1533728391389" expanded="true" signature="77:82" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/tensorboardX/writer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="389" selection-start-line="389" selection-end-line="389" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/codecs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="614">
+          <caret line="331" selection-start-line="331" selection-end-line="331" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/ptan/experience.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="81" selection-start-line="81" selection-end-line="81" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/torch/nn/modules/container.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="90" selection-start-line="90" selection-end-line="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/torch/nn/modules/module.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="476" selection-start-line="476" selection-end-line="476" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/lib/dqn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="566">
+          <caret line="31" column="39" selection-start-line="31" selection-start-column="39" selection-end-line="31" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/torch/nn/modules/conv.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="300" selection-start-line="300" selection-end-line="300" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/lib/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="711">
+          <caret line="58" column="46" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="46" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1534046853579" expanded="true" signature="571:576" ph="..." />
+            <marker date="1534046853579" expanded="true" signature="2418:2725" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/ptan/actions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="523">
+          <caret line="25" column="16" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter7/01_dqn_basic.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="654">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#10#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.virtualenvs/rlhandson/lib/python3.5/site-packages/ptan/agent.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="701">
+          <caret line="74" column="38" selection-start-line="74" selection-start-column="23" selection-end-line="74" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
